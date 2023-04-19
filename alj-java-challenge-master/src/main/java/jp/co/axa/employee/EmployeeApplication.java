@@ -1,4 +1,4 @@
-package jp.co.axa.apidemo;
+package jp.co.axa.employee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableSwagger2
 @SpringBootApplication
-public class ApiDemoApplication {
+public class EmployeeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiDemoApplication.class, args);
+		SpringApplication.run(EmployeeApplication.class, args);
 	}
 
 }
